@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\Auctions\Pey.Modules.Auctions\Pey.Modules.Auctions.csproj" />
+    <ProjectReference Include="..\Modules\Bidding\Pey.Modules.Bidding\Pey.Modules.Bidding.csproj" />
+    <ProjectReference Include="..\Modules\Identity\Pey.Modules.Identity\Pey.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\Notifications\Pey.Modules.Notifications\Pey.Modules.Notifications.csproj" />
+    <ProjectReference Include="..\Modules\Payments\Pey.Modules.Payments\Pey.Modules.Payments.csproj" />
+    <ProjectReference Include="..\Pey.ServiceDefaults\Pey.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Pey.Shared\Pey.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

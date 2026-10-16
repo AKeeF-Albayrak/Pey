@@ -1,0 +1,30 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Pey.API/Pey.API.csproj" />
+    <Project Path="src/Pey.AppHost/Pey.AppHost.csproj" />
+    <Project Path="src/Pey.ServiceDefaults/Pey.ServiceDefaults.csproj" Id="557fe1d9-d69c-4a01-8db1-b70a6fefad3a" />
+    <Project Path="src/Pey.Shared/Pey.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Auctions/">
+    <Project Path="src/Modules/Auctions/Pey.Modules.Auctions.Contracts/Pey.Modules.Auctions.Contracts.csproj" Id="08734139-fbf8-4871-99c8-82a2cb36c4d9" />
+    <Project Path="src/Modules/Auctions/Pey.Modules.Auctions/Pey.Modules.Auctions.csproj" Id="0900849a-f6b0-465f-bc7b-2d0b83e4f0ef" />
+  </Folder>
+  <Folder Name="/src/Modules/Bidding/">
+    <Project Path="src/Modules/Bidding/Pey.Modules.Bidding.Contracts/Pey.Modules.Bidding.Contracts.csproj" Id="2ad41e64-4ccf-4fb0-932f-b3cedad47148" />
+    <Project Path="src/Modules/Bidding/Pey.Modules.Bidding/Pey.Modules.Bidding.csproj" Id="94c9c155-3946-45cc-9bc5-cea9528436c7" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/Pey.Modules.Identity.Contracts/Pey.Modules.Identity.Contracts.csproj" Id="d5d91671-a17f-4dd8-9109-08021a5330ba" />
+    <Project Path="src/Modules/Identity/Pey.Modules.Identity/Pey.Modules.Identity.csproj" Id="5ff51426-3825-443b-8308-2783d3a77b17" />
+  </Folder>
+  <Folder Name="/src/Modules/Notifications/">
+    <Project Path="src/Modules/Notifications/Pey.Modules.Notifications.Contracts/Pey.Modules.Notifications.Contracts.csproj" Id="7f12d654-0758-4e48-815e-33594b59ad7f" />
+    <Project Path="src/Modules/Notifications/Pey.Modules.Notifications/Pey.Modules.Notifications.csproj" Id="7b7c3f57-3cb4-4bf2-a5d4-544d7399c00a" />
+  </Folder>
+  <Folder Name="/src/Modules/Payments/">
+    <Project Path="src/Modules/Payments/Pey.Modules.Payments.Contracts/Pey.Modules.Payments.Contracts.csproj" Id="050e7516-1d51-4730-8412-71a53713f2ad" />
+    <Project Path="src/Modules/Payments/Pey.Modules.Payments/Pey.Modules.Payments.csproj" Id="2266ad9d-80e0-4fd8-95bb-7455befcbca1" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
