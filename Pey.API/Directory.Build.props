@@ -3,5 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Smart App Control imzasız .exe'leri engelliyor; uygulamalar imzalı dotnet.exe üzerinden çalışsın. -->
+    <UseAppHost>false</UseAppHost>
   </PropertyGroup>
 </Project>
